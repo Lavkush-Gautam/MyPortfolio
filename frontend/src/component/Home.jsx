@@ -26,7 +26,7 @@ const Home = () => {
                     <button
                         onClick={() => {
                             const link = document.createElement('a');
-                            link.href = '/lavksuh gautam .pdf'; // Make sure this file is in the public folder
+                            link.href = '/MyResume .pdf'; // Make sure this file is in the public folder
                             link.download = 'lavksuh gautam.pdf';
                             document.body.appendChild(link);
                             link.click();
